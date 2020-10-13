@@ -1,7 +1,7 @@
 /target/
-.metadata/
-.vscode/
-.settings/
+/.metadata/
+/.vscode/
+/.settings/
 .classpath
 .factorypath
 .project
