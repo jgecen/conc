@@ -24,7 +24,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name = "TCONCCONCILIACAO_BATIMENTO")
+@Table(schema = "CONC", name = "TCONCCONCILIACAO_BATIMENTO")
 public class ConciliacaoBatimentoData {
 
 	@Id

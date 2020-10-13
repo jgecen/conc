@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<tconcimportacao_controle
+		num_importacao_controle="1" cod_cadu="1" cod_sub_cadu="2"
+		data_importacao="2020-10-07 00:00:00.0" nome_login_cadu="gecen"
+		num_cnpj_entidade="88463999924" num_mes_referencia="09"
+		sigl_tipo_entidade="ERC" sigl_uf_entidade="PR" />
+
+	<tconcimportacao_boleto
+		num_importacao_boleto="1" num_importacao_controle="1"
+		cod_linha_digitacao="1" data_vencimento="2020-09-25 00:00:00.0"
+		ind_quantidade_conciliacao="10" ind_valor_conciliacao="1000"
+		nome_razao_social="RAZAO SOCIAL" nome_tipo_servico_contrato="SISCON"
+		num_cnpj_agente_financeiro="99463999924" num_documento="10"
+		sigl_tipo_taxa="ERC" val_total="1000.00" />
+
+	<tconcimportacao_operacao
+		num_importacao_operacao="1" cod_chassi="CHASSI01" cod_contrato="101"
+		data_cadastro="2000-10-10 00:00:00.0"
+		data_contrato="2000-10-10 00:00:00.0"
+		num_cnpj_agente_financeiro="88463999924" num_importacao_controle="1"
+		sigl_tipo_taxa="ERC" />
+
+	<tconcimportacao_operacao
+		num_importacao_operacao="2" cod_chassi="XXCHASSI02" cod_contrato="101"
+		data_cadastro="2000-10-10 00:00:00.0"
+		data_contrato="2000-10-10 00:00:00.0"
+		num_cnpj_agente_financeiro="88463999924" num_importacao_controle="1"
+		sigl_tipo_taxa="ERC" />
+
+	<tconcdado_faturamento num_dado_faturamento="1"
+		cod_cadu_agente_financeiro="10.00" cod_chassi="CHASSI01"
+		cod_tipo_funcao="1.00" data_operacao="2020-09-25"
+		num_cnpj_agente_financeiro="88463999924" num_mes_referencia="09"
+		num_sequencia_chassi="1.00" sigl_uf_entidade="PR"
+		val_faturamento="1000.00" />
+
+	<tconcdado_faturamento num_dado_faturamento="2"
+		cod_cadu_agente_financeiro="10.00" cod_chassi="XXCHASSI02"
+		cod_tipo_funcao="1.00" data_operacao="2020-09-25"
+		num_cnpj_agente_financeiro="88463999924" num_mes_referencia="09"
+		num_sequencia_chassi="1.00" sigl_uf_entidade="PR"
+		val_faturamento="1000.00" />
+		
+	<tconcresultado_batimento
+		num_resultado_batimento="1"
+		desc_resultado_batimento="OOoooooooooooooopsssssssssss" />
+
+	<tconcresultado_batimento
+		num_resultado_batimento="2"
+		desc_resultado_batimento="NNNNNNNNNNNNNnnnnnnnnnn" />
+
+	<tconcconciliacao_batimento
+		num_conciliacao_batimento="1" cod_cadu="1" cod_sub_cadu="1"
+		dthr_conciliacao="2020-10-08 00:36:32.782974" nome_login_cadu="gecen"
+		num_conciliacao_solicitacao="1" num_dado_faturamento="1"
+		num_importacao_operacao="1" num_resultado_batimento="1" />
+
+	<tconcconciliacao_batimento
+		num_conciliacao_batimento="2" cod_cadu="1" cod_sub_cadu="1"
+		dthr_conciliacao="2020-10-08 00:38:37.948175" nome_login_cadu="gecen"
+		num_conciliacao_solicitacao="1" num_dado_faturamento="1"
+		num_importacao_boleto="1" num_resultado_batimento="2" />
+
+</dataset>

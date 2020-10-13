@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name = "TCONCIMPORTACAO_BOLETO")
+@Table(schema = "CONC", name = "TCONCIMPORTACAO_BOLETO")
 public class ImportacaoBoletoData {
    
     @Id

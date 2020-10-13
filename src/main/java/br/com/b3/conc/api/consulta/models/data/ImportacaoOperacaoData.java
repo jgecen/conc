@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name = "TCONCIMPORTACAO_OPERACAO")
+@Table(schema = "CONC", name = "TCONCIMPORTACAO_OPERACAO")
 public class ImportacaoOperacaoData {
     
     @Id

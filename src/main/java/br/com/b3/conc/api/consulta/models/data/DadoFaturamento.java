@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name="TCONCDADO_FATURAMENTO")
+@Table(schema = "CONC", name="TCONCDADO_FATURAMENTO")
 public class DadoFaturamento {
 
 	@Id

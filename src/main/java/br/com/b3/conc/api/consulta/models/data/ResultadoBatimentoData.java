@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Entity
-@Table(name = "TCONCRESULTADO_BATIMENTO")
+@Table(schema = "CONC", name = "TCONCRESULTADO_BATIMENTO")
 public class ResultadoBatimentoData {
 
 	@Id

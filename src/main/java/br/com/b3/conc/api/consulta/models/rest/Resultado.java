@@ -2,11 +2,22 @@ package br.com.b3.conc.api.consulta.models.rest;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-@Data
-@Builder
+
+
+
+@ToString
+@Getter
+@Builder(toBuilder = true)
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
 public class Resultado {
 	@JsonProperty("entidadeResponsavel")
 	private Entidade entidadeResponsavel;
